@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <Link href={`/products/${id}`}>
-      <div className="max-w-lg bg-gray-953 rounded-sm overflow-hidden h-full flex flex-col justify-between">
+      <div className="max-w-lg bg-gray-953 rounded-sm overflow-hidden h-full flex flex-col justify-between hover:scale-105 transition-all ease-in-out">
         <div>
           <div className="relative h-96 bg-center ">
             <Image
@@ -42,7 +42,7 @@ const Card: React.FC<CardProps> = ({
         </div>
         <div className="px-6 py-2">
           <span className="inline-block text-2xl text-gray-952 mr-2">
-            ${price}
+            ₹{price}
           </span>
         </div>
       </div>

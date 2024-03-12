@@ -4,7 +4,7 @@ export default function Footer({ font }: { font: string }) {
       <div
         className={`max-w-[100rem] px-12 mx-auto flex justify-between ${font}`}
       >
-        <p className="text-xl">© Anky Coby Bean Inc.</p>
+        <p className="text-xl">© Andy Coby Bean Inc.</p>
       </div>
     </footer>
   );
