@@ -1,7 +1,7 @@
 export const getCanonicalUrl = () => {
   return process.env.NODE_ENV !== 'production'
     ? 'http://localhost:3000'
-    : 'https://easySell.vercel.app';
+    : 'https://esay-sell.vercel.app';
 };
 
 export const getImageUrl = (imageUrl: string) => {
